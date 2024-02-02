@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body,html{
+  scroll-snap-type: proximity;
+}
+.navBare{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-height: min-content;
+}
+.logo{
+    color: #17B915;
+    margin-right:200px;
+    font-size: 32px;
+}
+.navLinks a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    margin-left: 8px;
+    font-size: 14px;
+
+}
+.navLinks a:hover{
+    color: #17B915;
+}
+.navBare img{
+    color: white;
+    margin-left: 20px
+}
+.navicon{
+ margin-left: 100px;
+}
+.home{
+    margin: auto;
+    margin-top: 0.5px;
+    width: 90%;
+    height: 600px;
+}
+.homeImg{
+    width: 90%;
+    height: 600px;
+    position: relative;
+    border: none;
+}
+.homeContent{
+    position: absolute;
+    top: 160px;
+    left:230px;
+}
+.h1Home{
+    margin-bottom:0px;
+    color: #17B915;
+    font-size: 60px;
+}
+.h2Home{
+    margin-bottom: 8px;
+    font-size: 50px;
+}
+.h5Home{
+    margin-top: 26px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.homePar{
+    width:570px;
+    opacity: 0.7;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.towButtons{
+    margin-top: 60px;
+}
+.towButtons .btn1,.btn2{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin-right: 30px;
+    width: 150px;
+    font-size: 18px;
+    border: 1px transparent ;
+    border-radius: 20px;
+}
+ .btn1:hover{
+    background-color: #17B915;
+    transition: 1s;
+}
+ .btn2:hover{
+    background-color: #17B915;
+    border: none;
+    transition: 1s;
+}
+.aboutUs{
+    background-image: url(/images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 100px;
+    width:100%;
+    height:600px;
+}
+.btn1Div{
+    margin: auto;
+    max-width: min-content;
+}
+.aboutBtn1{
+    padding: 10px;
+    color: black;
+    background-color: transparent;
+    width: 200px;
+    height:70px;
+    border:solid 2px #17B915;
+    font-size: 25px;
+}
+.imgDiv{
+    max-width: min-content;
+    margin:auto;
+    margin-top: 20px;
+}
+.imgAbout{
+    width: 600px;
+}
+.parDiv{
+    margin: auto;
+    max-width: min-content;
+}
+.parAbout{
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    opacity:0.7 ;
+}
+.btn2Div{
+    margin: auto;
+    max-width: min-content;
+    border: 1px transparent ;
+}
+.aboutBtn2{
+    padding:10px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    margin-top:20px;
+    font-size: 18px;
+    border: 1px transparent ;
+}
+.aboutBtn2:hover{
+    background-color: #17B915;
+    border: none;
+    transition: 1s;
+}
+.meetMe{
+    margin: auto;
+    margin-top: 150px;
+    width: min-content;
+}
+.titleMeet{
+    margin-left: 160px;
+}
+.sousTitle{
+    margin-left: 70px;
+    margin-top: 15px;
+    opacity: 0.7;
+}
+table{
+    width: 700px;
+    margin-top: 40px;
+}
+table td p{
+    margin-left: 15px;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+table td img{
+    margin-right: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.btnMeet{
+    padding:10px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    margin-top:20px;
+    font-size: 18px;
+    margin-left: 40%;
+    border: 1px transparent ;
+}
+.btnMeet:hover{
+    background-color: #17B915;
+    border: none;
+    transition: 1s;
+}
+.thirdPart{
+    width: 100%;
+    height: min-content;
+    margin-top: 40px;
+}
+.thirdTab{
+    width: 100%;
+}
+.firstTh{
+    width: 600px;
+    background-color: #17B915;
+    height: max-content;
+    padding: 30px;
+}
+.thirdTitl1{
+    color: white;
+    font-size:45px;
+    font-weight: 200px;
+    margin-right:190px ;
+}
+.thirdTitl2{
+    color: black;
+    font-size:45px;
+    font-weight: 200px;
+  margin-left: 56px;
+}
+.thirdTitl3{
+    color: white;
+    font-size:45px;
+    font-weight: 200px;
+}
+.thirdPar{
+    margin-top: 30px;
+    text-align: justify;
+    margin-left: 160px;
+    color:white;
+    opacity:0.7;
+}
+.thirdBtn{
+    margin: auto;
+    padding:10px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    margin-top:30px;
+    font-size: 18px; 
+}
+.thirdBtn:hover{
+    border: 2px solid white;
+    transition: 1s;
+}
+.contactUs{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+.form{
+    margin: auto;
+    margin-top: 30px;
+    width: min-content;
+}
+.input{
+    margin-bottom: 15px;
+    margin-left: 2px;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid rgb(217, 211, 211);
+    text-align:initial;
+    padding: 5px;
+}
+textarea{
+    align-content: center;
+    margin-top: 10px;
+    width: 810px;
+    height: 100px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    border: 1px solid rgb(217, 211, 211);
+}
+.conTitle{
+    width: fit-content;
+    margin: auto;
+    font-size: 40px;
+}
+.contBtn{   
+    margin-top:10px;
+    margin-left: 270px;
+    width: 300px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius:30px;
+    text-align: center;
+}
+.contBtn:hover{
+    background-color: #17B915;
+    border: none;
+    transition: 1s;
+}
+.footer{
+    margin-top: 30px;
+    padding: 20px;
+    padding-top: 5px;
+    height:fit-content;
+    background-color: rgb(7, 44, 7);
+}
+.footTitle{
+    width: 400px;
+    height: 40px;
+    border: 2px solid white;
+    padding: 1%;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.footerTible{
+    width: fit-content;
+    margin: auto;
+    margin-top: 15px;
+}
+.icon{
+    align-items: center;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.footTd{
+    width: 200px;
+    color: white;
+}
+.latestPart{
+    text-align: center;
+    padding: 6px;
+    color: darkgrey;
+}
+
+
+
+
+
